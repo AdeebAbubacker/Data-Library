@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91884\\Desktop\\Asp Dot net\\DataLibrary\\DataLibrary Api\\DataLibrary Api.csproj": {}
+    "/Users/slbs/Desktop/GitHub/Data-Library/DataLibrary Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91884\\Desktop\\Asp Dot net\\DataLibrary\\DataLibrary Api\\DataLibrary Api.csproj": {
+    "/Users/slbs/Desktop/GitHub/Data-Library/DataLibrary Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91884\\Desktop\\Asp Dot net\\DataLibrary\\DataLibrary Api\\DataLibrary Api.csproj",
+        "projectUniqueName": "/Users/slbs/Desktop/GitHub/Data-Library/DataLibrary Api.csproj",
         "projectName": "DataLibrary Api",
-        "projectPath": "C:\\Users\\91884\\Desktop\\Asp Dot net\\DataLibrary\\DataLibrary Api\\DataLibrary Api.csproj",
-        "packagesPath": "C:\\Users\\91884\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91884\\Desktop\\Asp Dot net\\DataLibrary\\DataLibrary Api\\obj\\",
+        "projectPath": "/Users/slbs/Desktop/GitHub/Data-Library/DataLibrary Api.csproj",
+        "packagesPath": "/Users/slbs/.nuget/packages/",
+        "outputPath": "/Users/slbs/Desktop/GitHub/Data-Library/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\91884\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/slbs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +44,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -57,6 +57,18 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.2, )"
             },
@@ -84,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

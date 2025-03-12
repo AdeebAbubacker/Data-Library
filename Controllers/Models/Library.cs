@@ -3,6 +3,6 @@
     public class Library
     {
         public int Id { get; set; }
-        public String Name { get; set; }
+        public required String Name { get; set; } = string.Empty;
     }
 }
